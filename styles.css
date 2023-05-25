@@ -2,6 +2,12 @@
 
 /* Rest of your CSS code */
 
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 body {
   background-image: url("al-lucca-BA_bjyxvoNQ-unsplash.jpg");
