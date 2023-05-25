@@ -9,7 +9,6 @@
 }
 body {
   justify-content: center;
-  /* background-color: #6c63ff; */
 }
 
 .furry-container {
@@ -19,6 +18,43 @@ body {
   align-items: center;
   width: 90vw;
   margin: auto;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-weight: 550;
+}
+
+header {
+  background-color: #6c63ff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .center {
@@ -72,9 +108,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid #6c63ff; */
   border-radius: 5px;
-  /* padding: 1rem; */
   color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   position: relative;
@@ -109,9 +143,6 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
   height: 100%;
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .furry-name h3 {

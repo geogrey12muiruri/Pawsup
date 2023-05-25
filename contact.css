@@ -8,8 +8,43 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  /* background-color: #6c63ff;
-  color: #fff; */
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-weight: 550;
+}
+
+header {
+  background-color: #6c63ff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #contact-top {
@@ -28,7 +63,6 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  /* object-position: 0%; */
 }
 .contact-container {
   display: flex;
@@ -47,7 +81,6 @@ body {
   margin-top: 1.5rem;
   max-width: 500px;
   border-radius: 10px;
-  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
 
 .form-container h1 {
@@ -138,6 +171,5 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    /* object-position: 0%; */
   }
 }
