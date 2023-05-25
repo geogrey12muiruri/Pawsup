@@ -1,0 +1,123 @@
+/* furry-friend  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  justify-content: center;
+  /* background-color: #6c63ff; */
+}
+
+.furry-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  margin: auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.furry-container h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #6c63ff;
+  margin-bottom: 1rem;
+}
+
+.hr {
+  padding-bottom: 2px;
+  width: 100%;
+}
+
+.about-furry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin: 1rem auto;
+}
+
+.about-furry ul {
+  list-style: tick;
+  margin-bottom: 1rem;
+}
+
+.about-furry ul li {
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.furry-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1.5rem;
+  width: 80vw;
+  margin: 1rem auto;
+}
+
+.furry-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #6c63ff; */
+  border-radius: 5px;
+  /* padding: 1rem; */
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.furry-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+/* on card hover display the name */
+
+.furry-card:hover .furry-name {
+  display: block;
+}
+
+.furry-name {
+  display: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #6c63ff;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.furry-name h3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
