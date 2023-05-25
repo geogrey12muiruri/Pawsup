@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paws Up Animal Shelter - Home</title>
     <link rel="stylesheet" href="styles.css" />
-    <!-- import font-awesome icons cdn -->
+    <!-- Import font-awesome icons cdn -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -14,14 +14,23 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./mediaquery.css" />
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        // Handle click event on "Donate Now" button
+        $(".button").click(function() {
+          // Redirect the user to the donate page
+          window.location.href = "donate.html";
+        });
+      });
+    </script>
   </head>
   <body>
     <header>
-      <img
-        src="IMG-20230524-WA0006.jpg"
-        alt="Paws Up Animal Shelter Logo"
-        class="logo"
-      />
+      <a href="index.html">
+        <img src="IMG-20230524-WA0006.jpg" alt="Paws Up Animal Shelter Logo" class="logo">
+      </a>
       <nav>
         <div class="menu-icon">
           <i class="fas fa-bars"></i>
@@ -45,7 +54,7 @@
             strive to rescue as many animals as we can<br />while giving them a
             happy life!
           </p>
-          <a href="donate.html" class="button">Donate Now</a>
+          <a href="#" class="button">Donate Now</a>
         </div>
       </section>
 

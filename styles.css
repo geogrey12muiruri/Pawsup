@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Monstrat&display=swap');
+
+/* Rest of your CSS code */
+
+
 body {
   background-image: url("al-lucca-BA_bjyxvoNQ-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+  font-family: 'Monstrat', sans-serif;
 }
 
 .logo {
