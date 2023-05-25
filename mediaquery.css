@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+  .furry-container {
+    width: 100vw;
+  }
+  .logo {
+    max-width: 50px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav li {
+    margin-bottom: 1rem;
+  }
+  .center {
+    flex-direction: column;
+  }
+  .contact-svg {
+    width: 100%;
+  }
+  .contact-svg > img {
+    width: 100%;
+    height: 100%;
+  }
+  .volunteer-img {
+    height: 50vh;
+  }
+  .volunteer-img > img {
+    object-position: 50%;
+  }
+  .footer-volunteer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
